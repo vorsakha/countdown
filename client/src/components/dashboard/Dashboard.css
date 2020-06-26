@@ -1,0 +1,52 @@
+.dashboard {
+  padding: 12vh 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: center;
+}
+
+.event-block {
+  display: block;
+  margin: 10px;
+  background-color: #333;
+  color: tomato;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  margin: 7px;
+}
+
+.round {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.text-bg {
+  background-color: white;
+  padding: 5px 10px;
+  color: #333;
+}

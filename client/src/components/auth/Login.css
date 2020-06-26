@@ -1,0 +1,38 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group > input {
+  padding: 10px;
+  width: 80vw;
+}
+
+.btn-submit {
+  background-color: tomato;
+  padding: 10px 20px;
+  border: 0;
+  transition: 0.3s background-color;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: rgb(252, 118, 94);
+}
+
+@media screen and (min-width: 700px) {
+  .login-form .form-group > input {
+    width: 500px;
+  }
+  .login-form .btn-submit {
+    padding: 10px 30px;
+  }
+}

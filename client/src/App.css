@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.danger {
+  transition: 0.3s background-color;
+  background-color: rgb(253, 68, 68);
+}
+
+.danger:hover {
+  background-color: rgb(252, 105, 105);
+}
+
+.success {
+  transition: 0.3s background-color;
+  background-color: rgb(1, 212, 1);
+}
+
+.success:hover {
+  background-color: rgb(58, 223, 58);
+}
+
+.main {
+  transition: 0.3s background-color;
+  background-color: tomato;
+}
+
+.main:hover {
+  background-color: tomato;
+}
+
+.btn {
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
